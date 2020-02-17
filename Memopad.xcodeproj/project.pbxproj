@@ -15,6 +15,7 @@
 		FDE1872623F54F250039176E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1872423F54F250039176E /* LaunchScreen.storyboard */; };
 		FDE1873123F54F250039176E /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1873023F54F250039176E /* MemopadTests.swift */; };
 		FDE1873C23F54F250039176E /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1873B23F54F250039176E /* MemopadUITests.swift */; };
+		FDE1874A23F54FA20039176E /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1874923F54FA20039176E /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FDE1873723F54F250039176E /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE1873B23F54F250039176E /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		FDE1873D23F54F250039176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1874923F54FA20039176E /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FDE1872223F54F250039176E /* Assets.xcassets */,
 				FDE1872423F54F250039176E /* LaunchScreen.storyboard */,
 				FDE1872723F54F250039176E /* Info.plist */,
+				FDE1874923F54FA20039176E /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE1874A23F54FA20039176E /* MemoViewController.swift in Sources */,
 				FDE1871E23F54F240039176E /* ViewController.swift in Sources */,
 				FDE1871A23F54F240039176E /* AppDelegate.swift in Sources */,
 				FDE1871C23F54F240039176E /* SceneDelegate.swift in Sources */,
